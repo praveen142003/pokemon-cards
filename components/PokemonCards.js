@@ -104,6 +104,9 @@ const styles = StyleSheet.create({
   batchEmoji: {
     paddingRight: 5
   },
+  batchType :{
+ fontWeight :'bold'
+  },
   movesContainer: {
     marginBottom: 16
   },

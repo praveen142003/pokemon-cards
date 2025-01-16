@@ -76,13 +76,11 @@ export default function App() {
       <View style={styles.headerContainer}>
             <Text style={styles.headerText}>Pokemon Cards</Text>
           </View>
-    <ScrollView>
             <PokemonCards datas = {cardData} />
             {/* <PokemonCards {...charmanderDetails}/>
             <PokemonCards {...pikachuData}/>
             <PokemonCards {...squirtleData}/>
             <PokemonCards {...bulbasaurData}/> */}
-    </ScrollView>
     </SafeAreaView>
   );
 }
