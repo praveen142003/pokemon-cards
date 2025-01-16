@@ -90,9 +90,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    paddingTop : Platform.OS === 'android' ? 50:0
   },
   headerContainer : {
-    marginTop : 40,
     backgroundColor :'cornflowerblue',
     alignItems : 'center',
     padding : 10
